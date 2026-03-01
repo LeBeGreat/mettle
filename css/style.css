@@ -201,7 +201,7 @@ body.lang-ur h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 180px;
+  height: 80px;
   padding: 0 48px;
   flex-wrap: nowrap;
 }
@@ -217,7 +217,7 @@ body.lang-ur h3 {
 }
 
 .navbar-logo img {
-  height: 165px;
+  height: 60px;
   width: auto;
 }
 
@@ -248,15 +248,16 @@ body.lang-ur h3 {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 18px;
 }
 
 .nav-links a {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 500;
   color: var(--black);
   position: relative;
   padding: 4px 0;
+  white-space: nowrap;
 }
 
 .nav-links a::after {
@@ -285,8 +286,9 @@ body[dir="ltr"] .nav-links a::after {
 }
 
 .nav-cta {
-  padding: 10px 24px !important;
-  font-size: 0.9rem !important;
+  padding: 8px 18px !important;
+  font-size: 0.85rem !important;
+  white-space: nowrap;
 }
 
 /* Nav Actions (lang + hamburger always visible) */
@@ -1149,17 +1151,17 @@ body[dir="rtl"] .about-block h2::after {
 
 @media (max-width: 768px) {
   .navbar .container {
-    height: 80px;
-    padding: 0 24px;
+    height: 70px;
+    padding: 0 20px;
   }
 
   .navbar-logo img {
-    height: 70px;
+    height: 50px;
   }
 
   .nav-links {
     position: fixed;
-    top: 70px;
+    top: 70px; /* matches navbar height at 768px */
     left: 0;
     right: 0;
     bottom: 0;
@@ -1258,7 +1260,7 @@ body[dir="rtl"] .about-block h2::after {
 
 @media (max-width: 480px) {
   .navbar-logo img {
-    height: 50px;
+    height: 42px;
   }
 
   .hero-content h1 {
