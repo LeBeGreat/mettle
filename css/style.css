@@ -201,7 +201,7 @@ body.lang-ur h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 210px;
+  height: 180px;
   flex-wrap: nowrap;
 }
 
@@ -216,7 +216,7 @@ body.lang-ur h3 {
 }
 
 .navbar-logo img {
-  height: 200px;
+  height: 170px;
   width: auto;
 }
 
@@ -1113,9 +1113,17 @@ body[dir="rtl"] .about-block h2::after {
 }
 
 @media (max-width: 768px) {
+  .navbar .container {
+    height: 70px;
+  }
+
+  .navbar-logo img {
+    height: 60px;
+  }
+
   .nav-links {
     position: fixed;
-    top: 72px;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -1213,6 +1221,10 @@ body[dir="rtl"] .about-block h2::after {
 }
 
 @media (max-width: 480px) {
+  .navbar-logo img {
+    height: 50px;
+  }
+
   .hero-content h1 {
     font-size: 1.7rem;
   }
