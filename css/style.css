@@ -349,8 +349,8 @@ body[dir="ltr"] .nav-links a::after {
 }
 
 body[dir="rtl"] .lang-dropdown {
-  right: auto;
-  left: 0;
+  right: 0;
+  left: auto;
 }
 
 .lang-dropdown.active {
