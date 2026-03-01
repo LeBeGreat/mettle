@@ -1102,7 +1102,8 @@ body[dir="rtl"] .about-block h2::after {
     transform: translateX(-100%);
   }
 
-  .nav-links.active {
+  .nav-links.active,
+  body[dir="rtl"] .nav-links.active {
     transform: translateX(0);
   }
 
