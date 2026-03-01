@@ -1071,6 +1071,28 @@ body[dir="rtl"] .about-block h2::after {
   color: var(--white);
 }
 
+.footer-registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+}
+
+.footer-registration p {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.footer-reg-sep {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 0.8rem;
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 20px;
