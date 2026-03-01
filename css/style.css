@@ -202,6 +202,7 @@ body.lang-ur h3 {
   align-items: center;
   justify-content: space-between;
   height: 72px;
+  flex-wrap: nowrap;
 }
 
 .navbar-logo {
@@ -211,11 +212,16 @@ body.lang-ur h3 {
   font-weight: 700;
   font-size: 1.4rem;
   color: var(--green);
+  flex-shrink: 0;
 }
 
 .navbar-logo img {
   height: 40px;
   width: auto;
+}
+
+.navbar-logo img.logo-hidden {
+  display: none;
 }
 
 .navbar-logo .logo-text {
@@ -287,6 +293,7 @@ body[dir="ltr"] .nav-links a::after {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex-shrink: 0;
 }
 
 /* Language Selector */
