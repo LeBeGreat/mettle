@@ -201,7 +201,7 @@ body.lang-ur h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
+  height: 80px;
   flex-wrap: nowrap;
 }
 
@@ -216,7 +216,7 @@ body.lang-ur h3 {
 }
 
 .navbar-logo img {
-  height: 56px;
+  height: 68px;
   width: auto;
 }
 
