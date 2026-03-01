@@ -987,6 +987,12 @@ body[dir="rtl"] .about-block h2::after {
   color: var(--gray-text);
 }
 
+.contact-info-item a[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
 .contact-info-item a:hover {
   color: var(--green);
 }
@@ -1065,6 +1071,12 @@ body[dir="rtl"] .about-block h2::after {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 6px;
   display: block;
+}
+
+.footer-contact a[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: right;
 }
 
 .footer-contact a:hover {

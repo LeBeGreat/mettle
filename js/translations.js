@@ -65,7 +65,8 @@ const translations = {
     footerContactTitle: "تواصل معنا",
     footerPhone: "+966 50 377 8995",
     footerEmail: "info@mettleumrah.sa",
-    footerAddress: "المملكة العربية السعودية",
+    footerAddress: "مكة المكرمة، بطحاء قريش، برج البطحاء التجاري",
+
     footerCR: "سجل تجاري: 7004996356",
     footerMOC: "مسجل لدى وزارة التجارة السعودية",
     footerMOH: "مرخص من وزارة الحج والعمرة",
@@ -189,7 +190,8 @@ const translations = {
     footerContactTitle: "Contact Us",
     footerPhone: "+966 50 377 8995",
     footerEmail: "info@mettleumrah.sa",
-    footerAddress: "Kingdom of Saudi Arabia",
+    footerAddress: "Makkah, Batha Quraysh, Al Batha Commercial Tower",
+
     footerCR: "Commercial Registration: 7004996356",
     footerMOC: "Registered with the Saudi Ministry of Commerce",
     footerMOH: "Licensed by the Ministry of Hajj and Umrah",
@@ -308,7 +310,8 @@ const translations = {
     footerContactTitle: "رابطہ کریں",
     footerPhone: "+966 50 377 8995",
     footerEmail: "info@mettleumrah.sa",
-    footerAddress: "مملکت سعودی عرب",
+    footerAddress: "مکہ مکرمہ، بطحاء قریش، البطحاء کمرشل ٹاور",
+
     footerCR: "تجارتی رجسٹریشن: 7004996356",
     footerMOC: "سعودی وزارت تجارت میں رجسٹرڈ",
     footerMOH: "وزارت حج و عمرہ سے لائسنس یافتہ",
@@ -427,7 +430,8 @@ const translations = {
     footerContactTitle: "Hubungi Kami",
     footerPhone: "+966 50 377 8995",
     footerEmail: "info@mettleumrah.sa",
-    footerAddress: "Kerajaan Arab Saudi",
+    footerAddress: "Makkah, Batha Quraysh, Menara Komersial Al Batha",
+
     footerCR: "Registrasi Komersial: 7004996356",
     footerMOC: "Terdaftar di Kementerian Perdagangan Saudi",
     footerMOH: "Berlisensi dari Kementerian Haji dan Umrah",
@@ -546,7 +550,8 @@ const translations = {
     footerContactTitle: "Bize Ulaşın",
     footerPhone: "+966 50 377 8995",
     footerEmail: "info@mettleumrah.sa",
-    footerAddress: "Suudi Arabistan Krallığı",
+    footerAddress: "Mekke, Batha Kureyş, Al Batha Ticaret Kulesi",
+
     footerCR: "Ticari Sicil: 7004996356",
     footerMOC: "Suudi Ticaret Bakanlığı'na kayıtlı",
     footerMOH: "Hac ve Umre Bakanlığı tarafından lisanslı",
