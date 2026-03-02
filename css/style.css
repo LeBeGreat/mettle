@@ -99,7 +99,8 @@ img {
 /* When English or LTR language is active */
 body.lang-en,
 body.lang-id,
-body.lang-tr {
+body.lang-tr,
+body.lang-fr {
   font-family: var(--font-en);
 }
 
@@ -111,7 +112,10 @@ body.lang-id h2,
 body.lang-id h3,
 body.lang-tr h1,
 body.lang-tr h2,
-body.lang-tr h3 {
+body.lang-tr h3,
+body.lang-fr h1,
+body.lang-fr h2,
+body.lang-fr h3 {
   font-family: var(--font-en);
 }
 

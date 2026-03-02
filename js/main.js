@@ -96,7 +96,7 @@ function setLanguage(lang) {
   document.documentElement.setAttribute("lang", t.lang);
 
   // Font class
-  document.body.classList.remove("lang-ar", "lang-en", "lang-ur", "lang-id", "lang-tr");
+  document.body.classList.remove("lang-ar", "lang-en", "lang-ur", "lang-id", "lang-tr", "lang-fr");
   document.body.classList.add(t.fontClass);
 
   // Update lang button text
