@@ -137,3 +137,17 @@ function setActiveNavLink() {
     }
   });
 }
+
+// ── Lightbox ──
+function openLightbox(src) {
+  const lb = document.getElementById("lightbox");
+  document.getElementById("lightbox-img").src = src;
+  lb.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+function closeLightbox() {
+  const lb = document.getElementById("lightbox");
+  lb.classList.remove("active");
+  document.body.style.overflow = "";
+}

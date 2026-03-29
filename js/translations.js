@@ -134,6 +134,14 @@ const translations = {
     contactPhoneLabel: "الهاتف",
     contactEmailLabel: "البريد الإلكتروني",
     contactAddressLabel: "العنوان",
+    // Licenses
+    licensesLabel: "التراخيص والشهادات",
+    licensesTitle: "مرخصون ومعتمدون رسمياً",
+    licensesSubtitle: "نعمل وفق الأنظمة والتراخيص الرسمية من الجهات الحكومية المختصة",
+    licenseMotTitle: "ترخيص وزارة الحج والعمرة",
+    licenseMotDesc: "رقم الترخيص: 2176",
+    licenseCrTitle: "السجل التجاري",
+    licenseCrDesc: "رقم السجل: 7004996356",
   },
 
   // ─── English ───
@@ -254,6 +262,13 @@ const translations = {
     contactPhoneLabel: "Phone",
     contactEmailLabel: "Email",
     contactAddressLabel: "Address",
+    licensesLabel: "Licenses & Certifications",
+    licensesTitle: "Officially Licensed & Certified",
+    licensesSubtitle: "We operate in accordance with official licenses from competent government authorities",
+    licenseMotTitle: "Ministry of Hajj and Umrah License",
+    licenseMotDesc: "License No: 2176",
+    licenseCrTitle: "Commercial Registration",
+    licenseCrDesc: "Registration No: 7004996356",
   },
 
   // ─── Urdu ───
@@ -374,6 +389,13 @@ const translations = {
     contactPhoneLabel: "فون",
     contactEmailLabel: "ای میل",
     contactAddressLabel: "پتہ",
+    licensesLabel: "لائسنس اور سرٹیفکیشن",
+    licensesTitle: "سرکاری طور پر لائسنس یافتہ اور تصدیق شدہ",
+    licensesSubtitle: "ہم مجاز سرکاری حکام کے سرکاری لائسنس کے مطابق کام کرتے ہیں",
+    licenseMotTitle: "وزارت حج و عمرہ لائسنس",
+    licenseMotDesc: "لائسنس نمبر: 2176",
+    licenseCrTitle: "تجارتی رجسٹریشن",
+    licenseCrDesc: "رجسٹریشن نمبر: 7004996356",
   },
 
   // ─── Indonesian ───
@@ -494,6 +516,13 @@ const translations = {
     contactPhoneLabel: "Telepon",
     contactEmailLabel: "Email",
     contactAddressLabel: "Alamat",
+    licensesLabel: "Lisensi & Sertifikasi",
+    licensesTitle: "Resmi Berlisensi & Bersertifikat",
+    licensesSubtitle: "Kami beroperasi sesuai dengan lisensi resmi dari otoritas pemerintah yang berwenang",
+    licenseMotTitle: "Lisensi Kementerian Haji dan Umrah",
+    licenseMotDesc: "No. Lisensi: 2176",
+    licenseCrTitle: "Registrasi Komersial",
+    licenseCrDesc: "No. Registrasi: 7004996356",
   },
 
   // ─── Turkish ───
@@ -614,6 +643,13 @@ const translations = {
     contactPhoneLabel: "Telefon",
     contactEmailLabel: "E-posta",
     contactAddressLabel: "Adres",
+    licensesLabel: "Lisanslar ve Sertifikalar",
+    licensesTitle: "Resmi Lisanslı ve Sertifikalı",
+    licensesSubtitle: "Yetkili devlet kurumlarının resmi lisanslarına uygun olarak faaliyet gösteriyoruz",
+    licenseMotTitle: "Hac ve Umre Bakanlığı Lisansı",
+    licenseMotDesc: "Lisans No: 2176",
+    licenseCrTitle: "Ticari Sicil",
+    licenseCrDesc: "Sicil No: 7004996356",
   },
 
   // ─── French ───
@@ -733,6 +769,13 @@ const translations = {
     contactPhoneLabel: "Téléphone",
     contactEmailLabel: "E-mail",
     contactAddressLabel: "Adresse",
+    licensesLabel: "Licences et certifications",
+    licensesTitle: "Officiellement agréés et certifiés",
+    licensesSubtitle: "Nous opérons conformément aux licences officielles des autorités gouvernementales compétentes",
+    licenseMotTitle: "Licence du Ministère du Hajj et de l'Omra",
+    licenseMotDesc: "Licence N° : 2176",
+    licenseCrTitle: "Registre du commerce",
+    licenseCrDesc: "N° d'enregistrement : 7004996356",
   },
 
   // ─── Hindi ───
@@ -852,5 +895,12 @@ const translations = {
     contactPhoneLabel: "फ़ोन",
     contactEmailLabel: "ईमेल",
     contactAddressLabel: "पता",
+    licensesLabel: "लाइसेंस और प्रमाणपत्र",
+    licensesTitle: "आधिकारिक रूप से लाइसेंस प्राप्त और प्रमाणित",
+    licensesSubtitle: "हम सक्षम सरकारी अधिकारियों के आधिकारिक लाइसेंस के अनुसार कार्य करते हैं",
+    licenseMotTitle: "हज और उमराह मंत्रालय लाइसेंस",
+    licenseMotDesc: "लाइसेंस संख्या: 2176",
+    licenseCrTitle: "वाणिज्यिक पंजीकरण",
+    licenseCrDesc: "पंजीकरण संख्या: 7004996356",
   },
 };

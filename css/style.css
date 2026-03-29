@@ -1323,3 +1323,131 @@ body[dir="rtl"] .about-block h2::after {
     font-size: 1.7rem;
   }
 }
+
+/* ── Licenses & Certifications ── */
+.licenses-section {
+  background: #f8f6f0;
+}
+
+.licenses-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.license-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.license-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.license-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.license-img-wrapper img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.license-card:hover .license-img-wrapper img {
+  transform: scale(1.03);
+}
+
+.license-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(49, 89, 49, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.license-card:hover .license-overlay {
+  opacity: 1;
+}
+
+.license-overlay svg {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.license-info {
+  padding: 20px 24px;
+  text-align: center;
+}
+
+.license-info h3 {
+  font-size: 1.1rem;
+  color: var(--green);
+  margin-bottom: 6px;
+}
+
+.license-info p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 10000;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  line-height: 1;
+  z-index: 10001;
+}
+
+@media (max-width: 768px) {
+  .licenses-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .license-img-wrapper img {
+    height: 200px;
+  }
+}
