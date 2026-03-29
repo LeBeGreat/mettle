@@ -100,7 +100,8 @@ img {
 body.lang-en,
 body.lang-id,
 body.lang-tr,
-body.lang-fr {
+body.lang-fr,
+body.lang-hi {
   font-family: var(--font-en);
 }
 
@@ -115,7 +116,10 @@ body.lang-tr h2,
 body.lang-tr h3,
 body.lang-fr h1,
 body.lang-fr h2,
-body.lang-fr h3 {
+body.lang-fr h3,
+body.lang-hi h1,
+body.lang-hi h2,
+body.lang-hi h3 {
   font-family: var(--font-en);
 }
 
